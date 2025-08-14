@@ -74,6 +74,5 @@ for x, yatual, yfitted in zip(dataframe.Exposure, dataframe.PEFR, fitted):
     res.plot((x , x), (yatual, yfitted), '--', color='C1')
 
 
-
 plt.tight_layout()
 plt.show()
